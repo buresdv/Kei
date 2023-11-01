@@ -11,6 +11,20 @@
 		6353915A2AF2DF6E00A4AE9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391592AF2DF6E00A4AE9A /* ContentView.swift */; };
 		6353915C2AF2DF7000A4AE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6353915B2AF2DF7000A4AE9A /* Assets.xcassets */; };
 		6353915F2AF2DF7000A4AE9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6353915E2AF2DF7000A4AE9A /* Preview Assets.xcassets */; };
+		6353916E2AF2DF9200A4AE9A /* App Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391692AF2DF9200A4AE9A /* App Constants.swift */; };
+		635391732AF2DFD200A4AE9A /* Key Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391722AF2DFD200A4AE9A /* Key Tracker.swift */; };
+		635391772AF2E00600A4AE9A /* SSH Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391762AF2E00600A4AE9A /* SSH Key.swift */; };
+		6353917B2AF2E02300A4AE9A /* Sidebar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353917A2AF2E02300A4AE9A /* Sidebar View.swift */; };
+		6353917D2AF2ED1B00A4AE9A /* App State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353917C2AF2ED1B00A4AE9A /* App State.swift */; };
+		635391802AF2EE3C00A4AE9A /* Start Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353917F2AF2EE3C00A4AE9A /* Start Page.swift */; };
+		635391832AF2EF0500A4AE9A /* Create Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391822AF2EF0500A4AE9A /* Create Key.swift */; };
+		635391862AF2F04C00A4AE9A /* View - Conditional Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391852AF2F04C00A4AE9A /* View - Conditional Modifiers.swift */; };
+		635391892AF2F10300A4AE9A /* Shell Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391882AF2F10300A4AE9A /* Shell Interface.swift */; };
+		6353918C2AF2F2FC00A4AE9A /* Folder Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353918B2AF2F2FC00A4AE9A /* Folder Observer.swift */; };
+		6353918F2AF2F72400A4AE9A /* Create Key Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353918E2AF2F72400A4AE9A /* Create Key Sheet.swift */; };
+		635391912AF2F83600A4AE9A /* Dismiss Sheet Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391902AF2F83600A4AE9A /* Dismiss Sheet Button.swift */; };
+		635391932AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391922AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift */; };
+		635391962AF2F8EE00A4AE9A /* Button Label Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391952AF2F8EE00A4AE9A /* Button Label Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +34,20 @@
 		6353915B2AF2DF7000A4AE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6353915E2AF2DF7000A4AE9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		635391602AF2DF7000A4AE9A /* Klic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Klic.entitlements; sourceTree = "<group>"; };
+		635391692AF2DF9200A4AE9A /* App Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App Constants.swift"; sourceTree = "<group>"; };
+		635391722AF2DFD200A4AE9A /* Key Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Key Tracker.swift"; sourceTree = "<group>"; };
+		635391762AF2E00600A4AE9A /* SSH Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SSH Key.swift"; sourceTree = "<group>"; };
+		6353917A2AF2E02300A4AE9A /* Sidebar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sidebar View.swift"; sourceTree = "<group>"; };
+		6353917C2AF2ED1B00A4AE9A /* App State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App State.swift"; sourceTree = "<group>"; };
+		6353917F2AF2EE3C00A4AE9A /* Start Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Start Page.swift"; sourceTree = "<group>"; };
+		635391822AF2EF0500A4AE9A /* Create Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Key.swift"; sourceTree = "<group>"; };
+		635391852AF2F04C00A4AE9A /* View - Conditional Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View - Conditional Modifiers.swift"; sourceTree = "<group>"; };
+		635391882AF2F10300A4AE9A /* Shell Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shell Interface.swift"; sourceTree = "<group>"; };
+		6353918B2AF2F2FC00A4AE9A /* Folder Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder Observer.swift"; sourceTree = "<group>"; };
+		6353918E2AF2F72400A4AE9A /* Create Key Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Key Sheet.swift"; sourceTree = "<group>"; };
+		635391902AF2F83600A4AE9A /* Dismiss Sheet Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dismiss Sheet Button.swift"; sourceTree = "<group>"; };
+		635391922AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Display Key Addition Sheet Button.swift"; sourceTree = "<group>"; };
+		635391952AF2F8EE00A4AE9A /* Button Label Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Label Style.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +80,16 @@
 		635391562AF2DF6E00A4AE9A /* Klic */ = {
 			isa = PBXGroup;
 			children = (
+				635391942AF2F8E500A4AE9A /* Enums */,
+				635391842AF2F04000A4AE9A /* Extensions */,
+				635391752AF2DFFC00A4AE9A /* Models */,
+				635391712AF2DFC800A4AE9A /* Trackers */,
+				635391782AF2E01300A4AE9A /* Views */,
+				635391742AF2DFD800A4AE9A /* Logic */,
 				635391572AF2DF6E00A4AE9A /* KlicApp.swift */,
 				635391592AF2DF6E00A4AE9A /* ContentView.swift */,
+				6353917C2AF2ED1B00A4AE9A /* App State.swift */,
+				635391692AF2DF9200A4AE9A /* App Constants.swift */,
 				6353915B2AF2DF7000A4AE9A /* Assets.xcassets */,
 				635391602AF2DF7000A4AE9A /* Klic.entitlements */,
 				6353915D2AF2DF7000A4AE9A /* Preview Content */,
@@ -67,6 +103,108 @@
 				6353915E2AF2DF7000A4AE9A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		635391712AF2DFC800A4AE9A /* Trackers */ = {
+			isa = PBXGroup;
+			children = (
+				635391722AF2DFD200A4AE9A /* Key Tracker.swift */,
+			);
+			path = Trackers;
+			sourceTree = "<group>";
+		};
+		635391742AF2DFD800A4AE9A /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				635391872AF2F0FB00A4AE9A /* Shell */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		635391752AF2DFFC00A4AE9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6353918A2AF2F2F300A4AE9A /* Folder Observing */,
+				635391762AF2E00600A4AE9A /* SSH Key.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		635391782AF2E01300A4AE9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				635391812AF2EEF000A4AE9A /* Reusables */,
+				6353918D2AF2F71700A4AE9A /* Create Key */,
+				6353917E2AF2EE3200A4AE9A /* Start Page */,
+				635391792AF2E01700A4AE9A /* Sidebar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		635391792AF2E01700A4AE9A /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				6353917A2AF2E02300A4AE9A /* Sidebar View.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		6353917E2AF2EE3200A4AE9A /* Start Page */ = {
+			isa = PBXGroup;
+			children = (
+				6353917F2AF2EE3C00A4AE9A /* Start Page.swift */,
+			);
+			path = "Start Page";
+			sourceTree = "<group>";
+		};
+		635391812AF2EEF000A4AE9A /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				635391822AF2EF0500A4AE9A /* Create Key.swift */,
+				635391902AF2F83600A4AE9A /* Dismiss Sheet Button.swift */,
+				635391922AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		635391842AF2F04000A4AE9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				635391852AF2F04C00A4AE9A /* View - Conditional Modifiers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		635391872AF2F0FB00A4AE9A /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				635391882AF2F10300A4AE9A /* Shell Interface.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		6353918A2AF2F2F300A4AE9A /* Folder Observing */ = {
+			isa = PBXGroup;
+			children = (
+				6353918B2AF2F2FC00A4AE9A /* Folder Observer.swift */,
+			);
+			path = "Folder Observing";
+			sourceTree = "<group>";
+		};
+		6353918D2AF2F71700A4AE9A /* Create Key */ = {
+			isa = PBXGroup;
+			children = (
+				6353918E2AF2F72400A4AE9A /* Create Key Sheet.swift */,
+			);
+			path = "Create Key";
+			sourceTree = "<group>";
+		};
+		635391942AF2F8E500A4AE9A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				635391952AF2F8EE00A4AE9A /* Button Label Style.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +277,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635391962AF2F8EE00A4AE9A /* Button Label Style.swift in Sources */,
+				635391932AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift in Sources */,
+				6353918F2AF2F72400A4AE9A /* Create Key Sheet.swift in Sources */,
+				635391772AF2E00600A4AE9A /* SSH Key.swift in Sources */,
+				635391912AF2F83600A4AE9A /* Dismiss Sheet Button.swift in Sources */,
+				635391862AF2F04C00A4AE9A /* View - Conditional Modifiers.swift in Sources */,
+				635391832AF2EF0500A4AE9A /* Create Key.swift in Sources */,
 				6353915A2AF2DF6E00A4AE9A /* ContentView.swift in Sources */,
+				6353918C2AF2F2FC00A4AE9A /* Folder Observer.swift in Sources */,
+				635391892AF2F10300A4AE9A /* Shell Interface.swift in Sources */,
+				6353917B2AF2E02300A4AE9A /* Sidebar View.swift in Sources */,
+				635391732AF2DFD200A4AE9A /* Key Tracker.swift in Sources */,
 				635391582AF2DF6E00A4AE9A /* KlicApp.swift in Sources */,
+				6353916E2AF2DF9200A4AE9A /* App Constants.swift in Sources */,
+				635391802AF2EE3C00A4AE9A /* Start Page.swift in Sources */,
+				6353917D2AF2ED1B00A4AE9A /* App State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,18 +7,29 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+struct ContentView: View
+{
+    
+    @EnvironmentObject var appState: AppState
+    @EnvironmentObject var keyTracker: KeyTracker
+    
+    var body: some View
+    {
+        NavigationSplitView(columnVisibility: $appState.splitViewColumnVisibility) {
+            SidebarView()
+        } detail: {
+            StartPage()
         }
-        .padding()
+        .onChange(of: keyTracker.keys)
+        { newValue in
+            if keyTracker.keys.isEmpty
+            {
+                appState.splitViewColumnVisibility = .detailOnly
+            }
+            else
+            {
+                appState.splitViewColumnVisibility = .all
+            }
+        }
     }
-}
-
-#Preview {
-    ContentView()
 }
