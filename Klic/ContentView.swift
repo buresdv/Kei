@@ -19,16 +19,27 @@ struct ContentView: View
             SidebarView()
         } detail: {
             StartPage()
+                .navigationDestination(for: SSHKey.self, destination: { key in
+                    Text(key.publicKey)
+                })
+        }
+        .toolbar
+        {
+            DisplayKeyAdditionSheetButton(labelStyle: .iconOnly)
         }
         .onChange(of: keyTracker.keys)
         { newValue in
             if keyTracker.keys.isEmpty
             {
-                appState.splitViewColumnVisibility = .detailOnly
+                withAnimation {
+                    appState.splitViewColumnVisibility = .detailOnly
+                }
             }
             else
             {
-                appState.splitViewColumnVisibility = .all
+                withAnimation {
+                    appState.splitViewColumnVisibility = .all
+                }
             }
         }
     }

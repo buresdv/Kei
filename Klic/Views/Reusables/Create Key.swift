@@ -11,9 +11,11 @@ struct CreateKeyButton: View
 {
     let labelStyle: LabelStyle
     
+    let keyName: String
     let passphrase: String
 
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject var keyTracker: KeyTracker
 
     var body: some View
     {
@@ -21,9 +23,11 @@ struct CreateKeyButton: View
         {
             Task
             {
-                let sshKeyAdditionResult = await shell(URL(string: "/usr/bin/ssh-keygen")!, ["-f", AppConstants.sshKeyDirectory.appendingPathComponent("foo", conformingTo: .fileURL).path, "-N", passphrase])
+                let sshKeyAdditionResult = await shell(URL(string: "/usr/bin/ssh-keygen")!, ["-f", AppConstants.sshKeyDirectory.appendingPathComponent(keyName, conformingTo: .fileURL).path, "-N", passphrase])
                 
                 print(sshKeyAdditionResult)
+                
+                await keyTracker.loadKeys()
                 
                 appState.isShowingSSHKeyAdditionSheet = false
             }

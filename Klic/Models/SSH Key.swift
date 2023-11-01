@@ -16,5 +16,7 @@ struct SSHKey: Identifiable, Equatable, Hashable
     let privateKey: String
     let publicKey: String
     
+    let url: URL
+    
     let createdAt: Date
 }

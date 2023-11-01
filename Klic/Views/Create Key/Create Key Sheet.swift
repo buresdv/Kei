@@ -26,9 +26,9 @@ struct CreateKeySheet: View {
                 
                 Spacer()
                 
-                CreateKeyButton(labelStyle: .textOnly, passphrase: passphrase)
+                CreateKeyButton(labelStyle: .textOnly, keyName: keyName, passphrase: passphrase)
                     .keyboardShortcut(.defaultAction)
-                    .disabled(passphrase.isEmpty)
+                    .disabled(keyName.isEmpty)
             }
         }
         .padding()

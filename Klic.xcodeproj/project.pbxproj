@@ -25,6 +25,8 @@
 		635391912AF2F83600A4AE9A /* Dismiss Sheet Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391902AF2F83600A4AE9A /* Dismiss Sheet Button.swift */; };
 		635391932AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391922AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift */; };
 		635391962AF2F8EE00A4AE9A /* Button Label Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391952AF2F8EE00A4AE9A /* Button Label Style.swift */; };
+		635391992AF30DED00A4AE9A /* Key Detail View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391982AF30DED00A4AE9A /* Key Detail View.swift */; };
+		6353919B2AF3183100A4AE9A /* Copy to Clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353919A2AF3183100A4AE9A /* Copy to Clipboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		635391902AF2F83600A4AE9A /* Dismiss Sheet Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dismiss Sheet Button.swift"; sourceTree = "<group>"; };
 		635391922AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Display Key Addition Sheet Button.swift"; sourceTree = "<group>"; };
 		635391952AF2F8EE00A4AE9A /* Button Label Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Label Style.swift"; sourceTree = "<group>"; };
+		635391982AF30DED00A4AE9A /* Key Detail View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Key Detail View.swift"; sourceTree = "<group>"; };
+		6353919A2AF3183100A4AE9A /* Copy to Clipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copy to Clipboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				635391872AF2F0FB00A4AE9A /* Shell */,
+				6353919A2AF3183100A4AE9A /* Copy to Clipboard.swift */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 		635391782AF2E01300A4AE9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				635391972AF30DE100A4AE9A /* Key Details */,
 				635391812AF2EEF000A4AE9A /* Reusables */,
 				6353918D2AF2F71700A4AE9A /* Create Key */,
 				6353917E2AF2EE3200A4AE9A /* Start Page */,
@@ -205,6 +211,14 @@
 				635391952AF2F8EE00A4AE9A /* Button Label Style.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		635391972AF30DE100A4AE9A /* Key Details */ = {
+			isa = PBXGroup;
+			children = (
+				635391982AF30DED00A4AE9A /* Key Detail View.swift */,
+			);
+			path = "Key Details";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,11 +297,13 @@
 				635391772AF2E00600A4AE9A /* SSH Key.swift in Sources */,
 				635391912AF2F83600A4AE9A /* Dismiss Sheet Button.swift in Sources */,
 				635391862AF2F04C00A4AE9A /* View - Conditional Modifiers.swift in Sources */,
+				635391992AF30DED00A4AE9A /* Key Detail View.swift in Sources */,
 				635391832AF2EF0500A4AE9A /* Create Key.swift in Sources */,
 				6353915A2AF2DF6E00A4AE9A /* ContentView.swift in Sources */,
 				6353918C2AF2F2FC00A4AE9A /* Folder Observer.swift in Sources */,
 				635391892AF2F10300A4AE9A /* Shell Interface.swift in Sources */,
 				6353917B2AF2E02300A4AE9A /* Sidebar View.swift in Sources */,
+				6353919B2AF3183100A4AE9A /* Copy to Clipboard.swift in Sources */,
 				635391732AF2DFD200A4AE9A /* Key Tracker.swift in Sources */,
 				635391582AF2DF6E00A4AE9A /* KlicApp.swift in Sources */,
 				6353916E2AF2DF9200A4AE9A /* App Constants.swift in Sources */,

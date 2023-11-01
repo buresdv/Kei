@@ -12,7 +12,9 @@ class AppState: ObservableObject
 {
     @Published var isShowingSSHKeyAdditionSheet: Bool = false
     
-    @Published var sshFolderObserver: FolderObservable?
+    @Published var isLoadingKeys: Bool = true
+    
+    @Published var navigationSelection: UUID?
     
     @Published var splitViewColumnVisibility: NavigationSplitViewVisibility = .detailOnly
 }

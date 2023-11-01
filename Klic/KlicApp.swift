@@ -22,9 +22,7 @@ struct KlicApp: App
                 .task(priority: .userInitiated) {
                     await keyTracker.loadKeys()
                     
-                    appState.sshFolderObserver = .init(folderUrl: AppConstants.sshKeyDirectory)
-                    
-                    print("Initialized folder observer: \(appState.sshFolderObserver) for folder \(AppConstants.sshKeyDirectory)")
+                    appState.isLoadingKeys = false
                 }
                 .sheet(isPresented: $appState.isShowingSSHKeyAdditionSheet, content: {
                     CreateKeySheet()
