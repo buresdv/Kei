@@ -24,14 +24,7 @@ struct StartPage: View {
             {
                 if !keyTracker.keys.isEmpty
                 {
-                    VStack(alignment: .center, spacing: 5, content: {
-                        Text(keyTracker.keys.count.formatted(.number))
-                            .contentTransition(.numericText())
-                            .font(.largeTitle)
-                        
-                        Text(keyTracker.keys.count == 1 ? "key available" : "keys available")
-                    })
-                    .foregroundColor(.gray)
+                    KeyCounterView()
                 }
                 else
                 {
@@ -49,8 +42,4 @@ struct StartPage: View {
         }
         .padding()
     }
-}
-
-#Preview {
-    StartPage()
 }

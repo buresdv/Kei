@@ -27,6 +27,7 @@
 		635391962AF2F8EE00A4AE9A /* Button Label Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391952AF2F8EE00A4AE9A /* Button Label Style.swift */; };
 		635391992AF30DED00A4AE9A /* Key Detail View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635391982AF30DED00A4AE9A /* Key Detail View.swift */; };
 		6353919B2AF3183100A4AE9A /* Copy to Clipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353919A2AF3183100A4AE9A /* Copy to Clipboard.swift */; };
+		63A3E87C2AF3AD4600E0EAAD /* Key Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A3E87B2AF3AD4600E0EAAD /* Key Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		635391952AF2F8EE00A4AE9A /* Button Label Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button Label Style.swift"; sourceTree = "<group>"; };
 		635391982AF30DED00A4AE9A /* Key Detail View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Key Detail View.swift"; sourceTree = "<group>"; };
 		6353919A2AF3183100A4AE9A /* Copy to Clipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Copy to Clipboard.swift"; sourceTree = "<group>"; };
+		63A3E87B2AF3AD4600E0EAAD /* Key Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Key Counter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		6353917E2AF2EE3200A4AE9A /* Start Page */ = {
 			isa = PBXGroup;
 			children = (
+				63A3E87A2AF3AD2200E0EAAD /* Sub-Views */,
 				6353917F2AF2EE3C00A4AE9A /* Start Page.swift */,
 			);
 			path = "Start Page";
@@ -219,6 +222,14 @@
 				635391982AF30DED00A4AE9A /* Key Detail View.swift */,
 			);
 			path = "Key Details";
+			sourceTree = "<group>";
+		};
+		63A3E87A2AF3AD2200E0EAAD /* Sub-Views */ = {
+			isa = PBXGroup;
+			children = (
+				63A3E87B2AF3AD4600E0EAAD /* Key Counter.swift */,
+			);
+			path = "Sub-Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A3E87C2AF3AD4600E0EAAD /* Key Counter.swift in Sources */,
 				635391962AF2F8EE00A4AE9A /* Button Label Style.swift in Sources */,
 				635391932AF2F8B700A4AE9A /* Display Key Addition Sheet Button.swift in Sources */,
 				6353918F2AF2F72400A4AE9A /* Create Key Sheet.swift in Sources */,
