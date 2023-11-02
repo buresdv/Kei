@@ -12,6 +12,8 @@ class AppState: ObservableObject
 {
     @Published var isShowingSSHKeyAdditionSheet: Bool = false
     
+    @Published var isCreatingKey: Bool = false
+    
     @Published var isLoadingKeys: Bool = true
     
     @Published var navigationSelection: UUID?

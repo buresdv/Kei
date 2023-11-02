@@ -9,6 +9,9 @@ import SwiftUI
 
 struct CreateKeySheet: View {
     
+    @EnvironmentObject var appState: AppState
+    @EnvironmentObject var keyTracker: KeyTracker
+    
     @State private var passphrase: String = ""
     @State private var keyName: String = ""
     
@@ -16,26 +19,44 @@ struct CreateKeySheet: View {
         VStack(alignment: .leading, spacing: 10)
         {
             Form {
-                TextField("Name:", text: $keyName)
-                TextField("Passphrase:", text: $passphrase)
+                LabeledContent {
+                    TextField("", text: $keyName)
+                } label: {
+                    Text("Name:")
+                }
+
+                LabeledContent {
+                    TextField("", text: $passphrase)
+                } label: {
+                    VStack(alignment: .trailing, spacing: 3, content: {
+                        Text("Passphrase:")
+                        Text("Optional")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                    })
+                }
             }
             
             HStack
             {
                 DismissSheetButton()
+                    .disabled(appState.isCreatingKey)
                 
                 Spacer()
                 
+                if appState.isCreatingKey
+                {
+                    ProgressView()
+                        .frame(width: 10, height: 10)
+                        .scaleEffect(0.5)
+                }
+                
                 CreateKeyButton(labelStyle: .textOnly, keyName: keyName, passphrase: passphrase)
                     .keyboardShortcut(.defaultAction)
-                    .disabled(keyName.isEmpty)
+                    .disabled(keyName.isEmpty || keyTracker.keys.contains(where: { $0.name == keyName }))
             }
         }
         .padding()
         .frame(width: 250)
     }
-}
-
-#Preview {
-    CreateKeySheet()
 }
