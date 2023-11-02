@@ -31,7 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		635391542AF2DF6E00A4AE9A /* Klic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635391542AF2DF6E00A4AE9A /* Kei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635391572AF2DF6E00A4AE9A /* KlicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlicApp.swift; sourceTree = "<group>"; };
 		635391592AF2DF6E00A4AE9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6353915B2AF2DF7000A4AE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		635391552AF2DF6E00A4AE9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				635391542AF2DF6E00A4AE9A /* Klic.app */,
+				635391542AF2DF6E00A4AE9A /* Kei.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		635391532AF2DF6E00A4AE9A /* Klic */ = {
+		635391532AF2DF6E00A4AE9A /* Kei */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 635391632AF2DF7000A4AE9A /* Build configuration list for PBXNativeTarget "Klic" */;
+			buildConfigurationList = 635391632AF2DF7000A4AE9A /* Build configuration list for PBXNativeTarget "Kei" */;
 			buildPhases = (
 				635391502AF2DF6E00A4AE9A /* Sources */,
 				635391512AF2DF6E00A4AE9A /* Frameworks */,
@@ -247,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = Klic;
+			name = Kei;
 			productName = Klic;
-			productReference = 635391542AF2DF6E00A4AE9A /* Klic.app */;
+			productReference = 635391542AF2DF6E00A4AE9A /* Kei.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6353914F2AF2DF6E00A4AE9A /* Build configuration list for PBXProject "Klic" */;
+			buildConfigurationList = 6353914F2AF2DF6E00A4AE9A /* Build configuration list for PBXProject "Kei" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -280,7 +280,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				635391532AF2DF6E00A4AE9A /* Klic */,
+				635391532AF2DF6E00A4AE9A /* Kei */,
 			);
 		};
 /* End PBXProject section */
@@ -502,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6353914F2AF2DF6E00A4AE9A /* Build configuration list for PBXProject "Klic" */ = {
+		6353914F2AF2DF6E00A4AE9A /* Build configuration list for PBXProject "Kei" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				635391612AF2DF7000A4AE9A /* Debug */,
@@ -511,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		635391632AF2DF7000A4AE9A /* Build configuration list for PBXNativeTarget "Klic" */ = {
+		635391632AF2DF7000A4AE9A /* Build configuration list for PBXNativeTarget "Kei" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				635391642AF2DF7000A4AE9A /* Debug */,
