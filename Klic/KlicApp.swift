@@ -30,5 +30,21 @@ struct KlicApp: App
                 .environmentObject(appState)
                 .environmentObject(keyTracker)
         }
+        .commands {
+            SidebarCommands()
+            
+            CommandGroup(replacing: .newItem) // Disables "New Window"
+            {}
+            
+            CommandMenu("Keys")
+            {
+                Button(action: {
+                    appState.isShowingSSHKeyAdditionSheet = true
+                }, label: {
+                    Text("Add Key…")
+                })
+                .keyboardShortcut("n", modifiers: .command)
+            }
+        }
     }
 }

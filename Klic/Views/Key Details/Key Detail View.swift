@@ -44,6 +44,7 @@ struct KeyDetailView: View {
                             }, label: {
                                 Text("Copy Public Key")
                             })
+                            .keyboardShortcut("c", modifiers: [.command, .option])
                         }
                         else
                         {
@@ -86,6 +87,7 @@ struct KeyDetailView: View {
                             }, label: {
                                 Text("Copy Private Key")
                             })
+                            .keyboardShortcut("c", modifiers: [.command, .option, .shift])
                         }
                         else
                         {
